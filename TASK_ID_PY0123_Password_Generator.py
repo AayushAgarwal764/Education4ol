@@ -11,7 +11,7 @@ def addPasswordToFile(finalPassword):
         now = datetime.now()
         errorFlag = 0
         try:
-                f = open("Passwords_From_Generator.txt", "w")
+                f = open("Passwords_From_Python_Password_Generator_FileCreatedThroughGenerator.txt", "w")
                 f.write("Password created on {} is   {}".format(now, finalPassword))
                 f.close()
         except:
