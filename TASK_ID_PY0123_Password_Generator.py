@@ -109,6 +109,7 @@ def createPassword():
 root = Tk()
 root.geometry("500x300")
 root.title("Password Generator")
+root.resizable(0, 0)
 
 input_from_user = StringVar()
 
