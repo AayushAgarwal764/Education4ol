@@ -2,12 +2,12 @@ import smtplib
 
 currentUsername = "DemoUsername"
 transactionAmount = 10000
-ourGmailId = 'demolastnamed@gmail.com'
-ourGmailPassword = 'education4ol'
+ourGmailId = 'senderEmailId@example.com'
+ourGmailPassword = 'yourPassword'
 
 sentFrom = ourGmailId
 
-to = 'receiveremailid@gmail.com'
+to = 'receiveremailId@example.com'
 
 subject = 'Successful Payment'
 body = 'Dear {},\n\nYou have successfully completed the Transaction of Rs.{}.\n\nThis is an auto-generated email to confirm your Transaction.\n\nThank You.'.format(currentUsername, transactionAmount)
