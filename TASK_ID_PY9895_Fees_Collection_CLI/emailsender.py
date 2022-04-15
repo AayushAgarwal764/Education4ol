@@ -3,7 +3,7 @@ import smtplib
 currentUsername = "DemoUsername"
 transactionAmount = 10000
 ourGmailId = 'senderEmailId@example.com'
-ourGmailPassword = 'yourPassword'
+ourGmailPassword = 'senderPassword'
 
 sentFrom = ourGmailId
 
